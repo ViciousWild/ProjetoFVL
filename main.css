@@ -1,0 +1,37 @@
+*{
+    background-color: none;
+}
+
+#caixaPrincipal {
+    border: 1px solid red;
+    width: 95%;
+    margin: auto;
+    margin-top: 15px;
+    
+}
+
+#procuraItem {
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#botao {
+    color: white;
+    background-color: #733d29;
+}
+
+#botao:hover {
+    cursor: pointer;
+    filter: brightness(1.3);
+    transition: 0.5s;
+}
+
+button, input {
+    display: block;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 15px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
